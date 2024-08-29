@@ -1,0 +1,19 @@
+.days {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.day,
+.dayT,
+.empty {
+    width: calc(100%/7);
+    text-align: center;
+}
+
+
+
+.day:hover,
+.today {
+    background-color: #ccc;
+    cursor: pointer;
+}
